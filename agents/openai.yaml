@@ -1,0 +1,4 @@
+interface:
+  display_name: "岗位导向简历改写"
+  short_description: "提炼简历修改规律，按目标岗位重写经历并核验指标、职责与事实"
+  default_prompt: "请使用 $rewrite-job-resume，根据我的原始简历和岗位要求改写简历，并说明修改理由与待确认事实。"
