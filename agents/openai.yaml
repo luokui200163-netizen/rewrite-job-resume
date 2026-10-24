@@ -1,13 +1,13 @@
 interface:
-  display_name: 罗魁式简历改写
-  short_description: 三段式改写科研项目实习，匹配JD关键词，突出成果并生成含自评的饱满一页Word
-  default_prompt: 请使用 $rewrite-job-resume，结合我提供的简历及岗位JD改写，统一三段式，补充有依据的自我评价，加粗重点，并生成饱满的一页Word。
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
+  display_name: "罗魁式简历改写"
+  short_description: "原简历结合JD改写，补充成绩与罗魁式自评，核验企业logo并生成美观一页Word"
+  default_prompt: "请使用 $rewrite-job-resume，结合原简历和岗位JD改写，缺少成绩时询问绩点排名或成绩单，模仿罗魁式自评，核验公司logo并生成美观的一页Word。"
+  icon_small: "assets/icon.svg"
+  icon_large: "assets/icon.svg"
 policy:
   products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
+    - "chatgpt"
+    - "codex"
+    - "api"
+    - "atlas"
   allow_implicit_invocation: true
